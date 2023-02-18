@@ -1,0 +1,32 @@
+{
+  "name": "wallet",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "async-request": "^1.2.0",
+    "axios": "^0.27.2",
+    "bitcore-lib-doge": "^8.25.28",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-paginate-v2": "^1.6.3",
+    "morgan": "~1.9.1",
+    "password-hash": "^1.2.2",
+    "request": "^2.88.2",
+    "send-crypto": "^0.2.21",
+    "sochain": "^1.0.3",
+    "tronweb": "^4.1.0",
+    "web3": "^1.7.3"
+  }
+}
